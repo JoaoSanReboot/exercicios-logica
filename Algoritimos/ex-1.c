@@ -4,10 +4,10 @@
 
 int main(void){
     
-    //Para acentuaç?o brasileira
+    //Para acentuaÃ§Ã£o brasileira
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    //Declaraç?o de variáveis
+    //DeclaraÃ§Ã£o de variÃ¡veis
     float nota1, nota2, media;
 
     printf("Digite a nota do primeiro semestre: \n");
@@ -16,17 +16,17 @@ int main(void){
     printf("Digite a nota do segundo semestre: \n");
     scanf("%f", &nota2);
 
-    //Calcúlo de média
+    //CalcÃºlo de mÃ©dia
     media = nota1 + nota2;
 
-    //If para dicernir a média
+    //If para dicernir a mÃ©dia
     if(media >= 60.0){
 
-        printf("\033[1;32m Parabéns vocé foi aprovado sua média total foi: %.1f", media);
+        printf("\033[1;32m ParabÃ©ns vocÃª foi aprovado sua mÃ©dia total foi: %.1f", media);
     }
     else{
-        printf("\033[1;31m Sinto muito sua nota foi abaixo da média você foi reprovado! \n");
-        printf("\033[1;31m Sua média total é: %.1f", media);
+        printf("\033[1;31m Sinto muito sua nota foi abaixo da mÃ©dia vocÃª foi reprovado! \n");
+        printf("\033[1;31m Sua mÃ©dia total Ã©: %.1f", media);
     }
 
     return 0;
