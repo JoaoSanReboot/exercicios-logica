@@ -48,4 +48,6 @@ int main(void){
 
         printf("\nQuadrante 4");
     }
+
+    return 0;
 }

@@ -23,4 +23,5 @@ int main(void){
     //Imprimi a quantidade de horas jogadas
     printf("\nO jogo durou: %d horas", horasJogadas);
 
+    return 0;
 }
