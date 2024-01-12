@@ -4,20 +4,20 @@
 
 int main(void){
     
-    //Para acentuaÃ§Ã£o brasileira
+    //Para acentuação brasileira
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    //DeclaraÃ§Ã£o de variÃ¡veis
+    //Declaração de variáveis
     int horaInicio, horaFinal, horasJogadas;
 
-    //LÃª as informaÃ§Ãµes dada pelo usuÃ¡rio
-    printf("Informe a hora de entrada e saÃ­da do jogo:\n");
+    //Lê as informações dada pelo usuário
+    printf("Informe a hora de entrada e saída do jogo:\n");
     printf("Hora Iniciada: ");
         scanf("%d", &horaInicio);
     printf("\nHora Finalizada: ");
         scanf("%d", &horaFinal);
 
-    //CalcÃºlo de hora jogada
+    //Calcúlo de hora jogada
         horasJogadas = 24 +(horaFinal - horaInicio);
 
     //Imprimi a quantidade de horas jogadas
